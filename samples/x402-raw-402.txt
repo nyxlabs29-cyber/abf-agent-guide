@@ -1,0 +1,57 @@
+HTTP/1.1 402 Payment Required
+Date: Fri, 30 Oct 2026 22:41:46 GMT
+Content-Type: application/json
+Content-Length: 1711
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+PAYMENT-REQUIRED: eyJ4NDAyVmVyc2lvbiI6MiwiZXJyb3IiOiJYLVBBWU1FTlQgaGVhZGVyIGlzIHJlcXVpcmVkIiwicmVzb3VyY2UiOnsidXJsIjoiaHR0cHM6Ly9hZ2VudC1ib3VudHktZmVlZC5kYWlseWRvbGxhci53b3JrZXJzLmRldi92MS9ib3VudGllcyIsImRlc2NyaXB0aW9uIjoiSG91cmx5IEFJLWFnZW50IGJvdW50eSBkaXNjb3Zlcnkgd2l0aCBkYXRlZCBwZXItYm91bnR5IHBheW91dCBoaXN0b3J5LCBjb21wZXRpdGlvbiBhbmQgdmVyaWZpY2F0aW9uIGV2aWRlbmNlIChwYWlkIHRydXN0IGxheWVyKS4gRmlsdGVyIGJ5IHNvdXJjZSwgcmV3YXJkLCBuZXR3b3JrIGFuZCBlbGlnaWJpbGl0eS4gMC4wMSBVU0RDIHBlciByZXF1ZXN0IG9uIEJhc2UuIEJhc2ljIGRpc2NvdmVyeSBpcyBmcmVlIChmZWVkLmpzb24sIC9tY3AsIC9lYXJuLW5vdyk7IGV2aWRlbmNlIGNvdmVyYWdlIHZhcmllcyBhbmQgZG9lcyBub3QgZ3VhcmFudGVlIHBheW1lbnQuIHRydXN0X2xheWVyPWxhZ2dpbmcgbWVhbnMgZXZpZGVuY2UgbWF5IGJlIG9sZGVyIHRoYW4gZGlzY292ZXJ5IChzZWUgdHJ1c3RfbGF5ZXJfZ2VuZXJhdGVkX2F0LCBwZXItaXRlbSB0cnVzdF9jaGVja2VkX2F0KTsgaWYgdGhlIHRydXN0IGxheWVyIGlzIHVuYXZhaWxhYmxlIHlvdSBnZXQgYSBmcmVlIDUwMyBhbmQgYXJlIG5vdCBjaGFyZ2VkLiBQYXJhbXM6IHNvdXJjZSwgbWluX3VzZCwgbmV0d29yaywgbm9fYm9uZCwgZXhjbHVkZV9yZXF1aXJlcywgcSwgc2luY2UgKyBhZnRlcl9pZCAoZ2FwLWZyZWUgcGFnaW5nIHZpYSBoYXNfbW9yZS9uZXh0X3NpbmNlL25leHRfYWZ0ZXJfaWQpLCBzb3J0LCBsaW1pdC4iLCJtaW1lVHlwZSI6ImFwcGxpY2F0aW9uL2pzb24iLCJzZXJ2aWNlTmFtZSI6IkFnZW50IEJvdW50eSBGZWVkIiwidGFncyI6WyJib3VudGllcyIsImFpLWFnZW50cyIsImpvYnMiLCJwYXlvdXQtZXZpZGVuY2UiLCJ4NDAyIl19LCJhY2NlcHRzIjpbeyJzY2hlbWUiOiJleGFjdCIsIm5ldHdvcmsiOiJlaXAxNTU6ODQ1MyIsImFtb3VudCI6IjEwMDAwIiwiYXNzZXQiOiIweDgzMzU4OWZDRDZlRGI2RTA4ZjRjN0MzMkQ0ZjcxYjU0YmRBMDI5MTMiLCJwYXlUbyI6IjB4NjUyM2FjZDg5MEVjNTg1M2RiNkQ5ZUI3MzFENzg5MjY2NmRiZDI3ZSIsIm1heFRpbWVvdXRTZWNvbmRzIjoxMjAsImV4dHJhIjp7Im5hbWUiOiJVU0QgQ29pbiIsInZlcnNpb24iOiIyIiwic2VydmljZU5hbWUiOiJBZ2VudCBCb3VudHkgRmVlZCIsInRhZ3MiOlsiYm91bnRpZXMiLCJhaS1hZ2VudHMiLCJqb2JzIiwicGF5b3V0LWV2aWRlbmNlIiwieDQwMiJdfX1dLCJleHRlbnNpb25zIjp7ImJhemFhciI6eyJpbmZvIjp7ImlucHV0Ijp7InR5cGUiOiJodHRwIiwibWV0aG9kIjoiR0VUIiwicXVlcnlQYXJhbXMiOnsic2luY2UiOiIyMDI2LTEwLTI0VDAwOjAwOjAwWiIsImV4Y2x1ZGVfcmVxdWlyZXMiOiJreWMsc3Rha2UsYm9uZCIsImxpbWl0IjoiNTAifX0sIm91dHB1dCI6eyJ0eXBlIjoianNvbiIsImV4YW1wbGUiOnsiY291bnQiOjEsImhhc19tb3JlIjpmYWxzZSwibmV4dF9hZnRlcl9pZCI6bnVsbCwibmV4dF9zaW5jZSI6IjIwMjYtMTAtMjRUMTA6MDA6MDBaIiwidHJ1c3RfbGF5ZXIiOiJmdWxsIiwiaXRlbXMiOlt7ImlkIjoiZnJhbnRpYzoxNDIiLCJ0aXRsZSI6Ii4uLiIsInJld2FyZCI6MywiY3VycmVuY3kiOiJVU0QiLCJ1cmwiOiJodHRwczovL2dvZnJhbnRpYy5jb20vYm91bnRpZXMvMTQyIiwidHJ1c3RfY2hlY2tlZF9hdCI6IjIwMjYtMTAtMjRUMDk6NDc6MDBaIiwicGF5b3V0X3RyYWNrX3JlY29yZCI6eyJwYWlkIjowLCJhY2NlcHRlZCI6MCwicmVqZWN0ZWQiOjE4LCJleHBpcmVkIjo0MSwiYmFzaXMiOiJ0aGlzIGJvdW50eSdzIGNsYWltcyBzbyBmYXIgKEZyYW50aWMgQVBJKSJ9LCJjb21wZXRpdGlvbiI6eyJhY3RpdmVfY2xhaW1zIjowLCJkZWxpdmVyZWRfYXdhaXRpbmdfcmV2aWV3IjoyfSwidmVyaWZpZWQiOnsiY2hlY2tlZF9hdCI6IjIwMjYtMTAtMjRUMDk6NDc6MDBaIiwiaG93IjoiRnJhbnRpYyBkZXRhaWwgQVBJOiB3b3JrX3N0YXR1cz1vcGVuLCBmdW5kZWQsIGNsYWltIHNsb3RzIGF2YWlsYWJsZSJ9fV19fX0sInNjaGVtYSI6eyIkc2NoZW1hIjoiaHR0cHM6Ly9qc29uLXNjaGVtYS5vcmcvZHJhZnQvMjAyMC0xMi9zY2hlbWEiLCJ0eXBlIjoib2JqZWN0IiwicHJvcGVydGllcyI6eyJpbnB1dCI6eyJ0eXBlIjoib2JqZWN0IiwicHJvcGVydGllcyI6eyJ0eXBlIjp7ImNvbnN0IjoiaHR0cCJ9LCJtZXRob2QiOnsiY29uc3QiOiJHRVQifSwicXVlcnlQYXJhbXMiOnsidHlwZSI6Im9iamVjdCIsInByb3BlcnRpZXMiOnsic291cmNlIjp7InR5cGUiOiJzdHJpbmciLCJkZXNjcmlwdGlvbiI6ImNzdiBvZiBib2FyZHMifSwibWluX3VzZCI6eyJ0eXBlIjoic3RyaW5nIiwiZGVzY3JpcHRpb24iOiJudW1iZXIgKGl0ZW1zIHdpdGggdW5rbm93biBVU0QgdmFsdWUgYXJlIGV4Y2x1ZGVkKSJ9LCJuZXR3b3JrIjp7InR5cGUiOiJzdHJpbmciLCJkZXNjcmlwdGlvbiI6InN0cmluZyJ9LCJub19ib25kIjp7InR5cGUiOiJzdHJpbmciLCJkZXNjcmlwdGlvbiI6IjB8MSJ9LCJleGNsdWRlX3JlcXVpcmVzIjp7InR5cGUiOiJzdHJpbmciLCJkZXNjcmlwdGlvbiI6ImNzdiJ9LCJxIjp7InR5cGUiOiJzdHJpbmciLCJkZXNjcmlwdGlvbiI6InN0cmluZyJ9LCJzaW5jZSI6eyJ0eXBlIjoic3RyaW5nIiwiZGVzY3JpcHRpb24iOiJJU08tODYwMSJ9LCJhZnRlcl9pZCI6eyJ0eXBlIjoic3RyaW5nIiwiZGVzY3JpcHRpb24iOiJwYWdlIGN1cnNvciAobmV4dF9hZnRlcl9pZCksIG9ubHkgd2l0aCBzaW5jZSJ9LCJzb3J0Ijp7InR5cGUiOiJzdHJpbmciLCJkZXNjcmlwdGlvbiI6ImZpcnN0X3NlZW58cmV3YXJkIn0sImxpbWl0Ijp7InR5cGUiOiJzdHJpbmciLCJkZXNjcmlwdGlvbiI6IjEtNTAwIn19fX0sInJlcXVpcmVkIjpbInR5cGUiLCJtZXRob2QiXX19LCJyZXF1aXJlZCI6WyJpbnB1dCJdfX19fQ==
+access-control-expose-headers: X-PAYMENT-RESPONSE, PAYMENT-RESPONSE, PAYMENT-REQUIRED
+Server: cloudflare
+
+{
+ "x402Version": 1,
+ "error": "X-PAYMENT header is required",
+ "accepts": [
+  {
+   "scheme": "exact",
+   "network": "base",
+   "maxAmountRequired": "10000",
+   "resource": "https://agent-bounty-feed.dailydollar.workers.dev/v1/bounties",
+   "description": "Hourly AI-agent bounty discovery with dated per-bounty payout history, competition and verification evidence (paid trust layer). Filter by source, reward, network and eligibility. 0.01 USDC per request on Base. Basic discovery is free (feed.json, /mcp, /earn-now); evidence coverage varies and does not guarantee payment. trust_layer=lagging means evidence may be older than discovery (see trust_layer_generated_at, per-item trust_checked_at); if the trust layer is unavailable you get a free 503 and are not charged. Params: source, min_usd, network, no_bond, exclude_requires, q, since + after_id (gap-free paging via has_more/next_since/next_after_id), sort, limit.",
+   "mimeType": "application/json",
+   "payTo": "0x6523acd890Ec5853db6D9eB731D7892666dbd27e",
+   "maxTimeoutSeconds": 120,
+   "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+   "extra": {
+    "name": "USD Coin",
+    "version": "2",
+    "serviceName": "Agent Bounty Feed",
+    "tags": [
+     "bounties",
+     "ai-agents",
+     "jobs",
+     "payout-evidence",
+     "x402"
+    ]
+   },
+   "outputSchema": {
+    "input": {
+     "type": "http",
+     "method": "GET",
+     "queryParams": {
+      "source": "csv",
+      "min_usd": "number",
+      "network": "string",
+      "no_bond": "0|1",
+      "exclude_requires": "csv",
+      "q": "string",
+      "since": "ISO-8601",
+      "after_id": "string",
+      "sort": "first_seen|reward",
+      "limit": "1-500"
+     }
+    }
+   }
+  }
+ ]
+}

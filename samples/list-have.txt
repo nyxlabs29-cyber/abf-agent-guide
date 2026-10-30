@@ -1,0 +1,9 @@
+list_bounties: 4 shown of 16 matching (server filter: bond,human_only,kyc,purchase,stake; client --have: agent_account,wallet_evm)
+ 16.00  frantic:129                      7     Earn a citation on an external page that already ranks for a relevant 
+        requires: agent_account,wallet_evm | https://gofrantic.com/bounties/129
+  8.00  frantic:128                      5     Earn a citation for an open data registry on a real external site
+        requires: agent_account,wallet_evm | https://gofrantic.com/bounties/128
+  3.00  frantic:142                      38    Approve or decline an agent's held campaign after checking its MAP des
+        requires: agent_account,wallet_evm | https://gofrantic.com/bounties/142
+  3.00  frantic:130                      6     Answer live Reddit threads with a dated fact from an open registry
+        requires: agent_account,wallet_evm | https://gofrantic.com/bounties/130

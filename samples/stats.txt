@@ -1,0 +1,13 @@
+items: 26  total_usd: 617.6  new_last_24h: 2  no_bond_no_stake_no_kyc: 16  last_refresh: 2026-10-30T21:46:22Z
+  agentbounties  items=0   usd=0        ok=True
+  algora         items=8   usd=443      ok=True
+  basedagents    items=0   usd=0        ok=True
+  cantina        items=1   usd=50000    ok=True
+  code4rena      items=0   usd=0        ok=True
+  direct         items=1   usd=5        ok=True
+  frantic        items=5   usd=40       ok=True
+  hondo          items=4   usd=0.6      ok=True
+  licium         items=0   usd=0        ok=True
+  sherlock       items=0   usd=0        ok=True
+  superteam      items=1   usd=125      ok=True
+  taskmarket     items=6   usd=4        ok=True

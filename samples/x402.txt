@@ -1,0 +1,29 @@
+GET https://agent-bounty-feed.dailydollar.workers.dev/v1/bounties?min_usd=1&exclude_requires=kyc%2Cstake%2Cbond
+-> HTTP 402 (no X-PAYMENT header sent)
+  [ok] x402 v1 body: scheme=exact
+  [ok] network is base
+  [ok] asset is USDC on Base
+  [ok] payTo matches the feed README
+  [ok] price 0.010000 USDC <= your --max-usd 0.010000
+  [ok] v2 PAYMENT-REQUIRED header: network eip155:8453
+  [ok] v2 amount == v1 maxAmountRequired
+  [ok] v2 payTo/asset == v1
+free param check: GET /v1/bounties?limit=0 -> HTTP 400 bad request (not charged)
+
+An x402 client would now ask the wallet to sign this EIP-3009 message (eth_signTypedData_v4).
+This script stops here: it has no key, no signer and sends nothing.
+
+domain : {"name": "USD Coin", "version": "2", "chainId": 8453, "verifyingContract": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"}
+types  : TransferWithAuthorization(address from,address to,uint256 value,uint256 validAfter,uint256 validBefore,bytes32 nonce)
+message: {
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0x6523acd890Ec5853db6D9eB731D7892666dbd27e",
+          "value": "10000",
+          "validAfter": "1793399505",
+          "validBefore": "1793400225",
+          "nonce": "0x2769514646aae4fc8bb4b85b83679fd842d11fecb67bc3d302e4b0a7c8c0b995"
+         }
+
+Then it retries the same GET with header X-PAYMENT: base64({"x402Version": 1, "scheme": "exact", "network": "base", "payload": {"signature": "<65-byte signature>", "authorization": "<message above>"}})
+
+verdict: challenge is well-formed and within budget

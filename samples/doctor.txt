@@ -1,0 +1,6 @@
+  [ok] GET /health                                          HTTP 200
+  [ok] GET /earn-now                                        HTTP 200
+  [ok] GET feed.json                                        HTTP 200
+  [ok] MCP initialize + tools/list (agent-bounty-feed v1.2.0) HTTP 200
+  [ok] GET /v1/bounties unpaid -> 402                       HTTP 402
+all free routes OK
